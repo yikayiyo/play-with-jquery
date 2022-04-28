@@ -1,0 +1,29 @@
+body {
+  background: orange;
+}
+
+.container {
+  padding: 20px;
+}
+
+div.fade-to {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(75, 121, 7);
+}
+
+#slide-down,
+#panel,
+#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#slide-panel,
+#panel {
+  padding: 50px;
+  background-color: #dfa;
+  display: none;
+}
