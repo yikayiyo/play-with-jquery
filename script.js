@@ -76,4 +76,9 @@ $(document).ready(function () {
   $('#stop-slide-down').click(function () {
     $('#slide-panel').stop();
   });
+  $('p').first().css('background-color', 'yellow');
+  $('p').eq(1).css('background-color', 'gray');
+  $('p').last().css('background-color', 'red');
+  $('button').filter('#stop-slide-down').css('font-size', '1.5rem');
+  $('button').not('#stop-slide-down').css('font-size', '1.25rem');
 });
